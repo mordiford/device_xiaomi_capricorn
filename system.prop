@@ -21,3 +21,11 @@ persist.qfp.cbge_sleep_enabled=1
 persist.qfp.filter_liftfinger=0
 persist.qfp.wup_display=0
 persist.qfp.capacitive_enabled=1
+
+# Hardware Info
+ro.device.chipset=Qualcomm MSM8996 Snapdragon 821
+ro.device.cpu=Quad-core (2x2.15 GHz Kryo & 2x1.6 GHz Kryo)
+ro.device.gpu=Qualcomm Adreno 530
+ro.device.rear_cam=12 MP, f/2.0
+ro.device.front_cam=4 MP, f/2.0
+ro.device.screen_res=1080 x 1920, 5.15"
