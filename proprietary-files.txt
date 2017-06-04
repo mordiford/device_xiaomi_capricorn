@@ -203,7 +203,7 @@ vendor/lib/libSonyIMX378PdafLibrary.so
 -etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml
 
 # Fingerprint
--app/QFingerprintService/QFingerprintService.apk
+-app/QFingerprintService/QFingerprintService.apk|b5f920185f2655423313285759d94dfbb1e1cdc6
 bin/qfp-daemon
 vendor/lib64/hw/fingerprint.qcom.so
 vendor/lib64/libqfp-service.so
@@ -221,3 +221,10 @@ etc/firmware/a530_zap.mdt
 
 # NFC firmware
 vendor/firmware/libpn548ad_fw.so
+
+# Sensors
+etc/sensors/hals.conf
+etc/sensors/sensor_def_qcomdev.conf
+
+# Thermal
+etc/thermal-engine-8996.conf
