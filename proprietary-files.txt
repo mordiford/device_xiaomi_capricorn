@@ -1,3 +1,6 @@
+# ADSP modules
+vendor/lib/rfsa/adsp/libdirac-appi.so
+
 # Audio ACDB
 etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb:vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
 etc/acdbdata/Forte/Forte_General_cal.acdb:vendor/etc/acdbdata/Forte/Forte_General_cal.acdb
@@ -208,12 +211,9 @@ etc/qdcm_calib_data_sharp_fhd_cmd_incell_dsi_panel.xml:vendor/etc/qdcm_calib_dat
 # Fingerprint
 -app/QFingerprintService/QFingerprintService.apk
 bin/qfp-daemon:vendor/bin/qfp-daemon
-vendor/lib64/hw/fingerprint.qcom.so
+vendor/lib64/hw/fingerprint.qcom.so|019dfc2f66f3ee9c4d43d0f5e33ff8f6bf62f9b7
 vendor/lib64/libqfp-service.so
 vendor/lib64/qfp.wakeup.so
-vendor/lib/hw/fingerprint.qcom.so
-vendor/lib/libqfp-service.so
-vendor/lib/qfp.wakeup.so
 
 # Graphics firmware
 etc/firmware/a530_zap.b00:vendor/firmware/a530_zap.b00
